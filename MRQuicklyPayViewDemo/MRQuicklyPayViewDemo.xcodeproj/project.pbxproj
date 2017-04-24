@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB37D911EA9B72A00B79256 /* PwdTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB37D901EA9B72A00B79256 /* PwdTextField.m */; };
+		5CB37D941EA9B8CB00B79256 /* MRKeyboardInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB37D931EA9B8CB00B79256 /* MRKeyboardInputView.m */; };
+		5CF4C2841EA9B542003763E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4C2831EA9B542003763E9 /* main.m */; };
+		5CF4C2871EA9B542003763E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4C2861EA9B542003763E9 /* AppDelegate.m */; };
+		5CF4C28A1EA9B542003763E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4C2891EA9B542003763E9 /* ViewController.m */; };
+		5CF4C28D1EA9B542003763E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF4C28B1EA9B542003763E9 /* Main.storyboard */; };
+		5CF4C28F1EA9B542003763E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF4C28E1EA9B542003763E9 /* Assets.xcassets */; };
+		5CF4C2921EA9B542003763E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CF4C2901EA9B542003763E9 /* LaunchScreen.storyboard */; };
+		5CF4C29D1EA9B542003763E9 /* MRQuicklyPayViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4C29C1EA9B542003763E9 /* MRQuicklyPayViewDemoTests.m */; };
+		5CF4C2A81EA9B542003763E9 /* MRQuicklyPayViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4C2A71EA9B542003763E9 /* MRQuicklyPayViewDemoUITests.m */; };
+		5CF4C2B71EA9B57D003763E9 /* MRQuicklyPayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF4C2B61EA9B57D003763E9 /* MRQuicklyPayView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CF4C2991EA9B542003763E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF4C2771EA9B542003763E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF4C27E1EA9B542003763E9;
+			remoteInfo = MRQuicklyPayViewDemo;
+		};
+		5CF4C2A41EA9B542003763E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CF4C2771EA9B542003763E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CF4C27E1EA9B542003763E9;
+			remoteInfo = MRQuicklyPayViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CB37D8F1EA9B72A00B79256 /* PwdTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PwdTextField.h; sourceTree = "<group>"; };
+		5CB37D901EA9B72A00B79256 /* PwdTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PwdTextField.m; sourceTree = "<group>"; };
+		5CB37D921EA9B8CB00B79256 /* MRKeyboardInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRKeyboardInputView.h; sourceTree = "<group>"; };
+		5CB37D931EA9B8CB00B79256 /* MRKeyboardInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRKeyboardInputView.m; sourceTree = "<group>"; };
+		5CF4C27F1EA9B542003763E9 /* MRQuicklyPayViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRQuicklyPayViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF4C2831EA9B542003763E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CF4C2851EA9B542003763E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CF4C2861EA9B542003763E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CF4C2881EA9B542003763E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CF4C2891EA9B542003763E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CF4C28C1EA9B542003763E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CF4C28E1EA9B542003763E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CF4C2911EA9B542003763E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CF4C2931EA9B542003763E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF4C2981EA9B542003763E9 /* MRQuicklyPayViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRQuicklyPayViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF4C29C1EA9B542003763E9 /* MRQuicklyPayViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRQuicklyPayViewDemoTests.m; sourceTree = "<group>"; };
+		5CF4C29E1EA9B542003763E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF4C2A31EA9B542003763E9 /* MRQuicklyPayViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRQuicklyPayViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF4C2A71EA9B542003763E9 /* MRQuicklyPayViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRQuicklyPayViewDemoUITests.m; sourceTree = "<group>"; };
+		5CF4C2A91EA9B542003763E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CF4C2B51EA9B57D003763E9 /* MRQuicklyPayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQuicklyPayView.h; sourceTree = "<group>"; };
+		5CF4C2B61EA9B57D003763E9 /* MRQuicklyPayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQuicklyPayView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CF4C27C1EA9B542003763E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF4C2951EA9B542003763E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF4C2A01EA9B542003763E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CF4C2761EA9B542003763E9 = {
+			isa = PBXGroup;
+			children = (
+				5CF4C2811EA9B542003763E9 /* MRQuicklyPayViewDemo */,
+				5CF4C29B1EA9B542003763E9 /* MRQuicklyPayViewDemoTests */,
+				5CF4C2A61EA9B542003763E9 /* MRQuicklyPayViewDemoUITests */,
+				5CF4C2801EA9B542003763E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CF4C2801EA9B542003763E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4C27F1EA9B542003763E9 /* MRQuicklyPayViewDemo.app */,
+				5CF4C2981EA9B542003763E9 /* MRQuicklyPayViewDemoTests.xctest */,
+				5CF4C2A31EA9B542003763E9 /* MRQuicklyPayViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CF4C2811EA9B542003763E9 /* MRQuicklyPayViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4C2851EA9B542003763E9 /* AppDelegate.h */,
+				5CF4C2861EA9B542003763E9 /* AppDelegate.m */,
+				5CF4C2881EA9B542003763E9 /* ViewController.h */,
+				5CF4C2891EA9B542003763E9 /* ViewController.m */,
+				5CF4C2B51EA9B57D003763E9 /* MRQuicklyPayView.h */,
+				5CF4C2B61EA9B57D003763E9 /* MRQuicklyPayView.m */,
+				5CB37D8F1EA9B72A00B79256 /* PwdTextField.h */,
+				5CB37D901EA9B72A00B79256 /* PwdTextField.m */,
+				5CB37D921EA9B8CB00B79256 /* MRKeyboardInputView.h */,
+				5CB37D931EA9B8CB00B79256 /* MRKeyboardInputView.m */,
+				5CF4C28B1EA9B542003763E9 /* Main.storyboard */,
+				5CF4C28E1EA9B542003763E9 /* Assets.xcassets */,
+				5CF4C2901EA9B542003763E9 /* LaunchScreen.storyboard */,
+				5CF4C2931EA9B542003763E9 /* Info.plist */,
+				5CF4C2821EA9B542003763E9 /* Supporting Files */,
+			);
+			path = MRQuicklyPayViewDemo;
+			sourceTree = "<group>";
+		};
+		5CF4C2821EA9B542003763E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4C2831EA9B542003763E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CF4C29B1EA9B542003763E9 /* MRQuicklyPayViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4C29C1EA9B542003763E9 /* MRQuicklyPayViewDemoTests.m */,
+				5CF4C29E1EA9B542003763E9 /* Info.plist */,
+			);
+			path = MRQuicklyPayViewDemoTests;
+			sourceTree = "<group>";
+		};
+		5CF4C2A61EA9B542003763E9 /* MRQuicklyPayViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4C2A71EA9B542003763E9 /* MRQuicklyPayViewDemoUITests.m */,
+				5CF4C2A91EA9B542003763E9 /* Info.plist */,
+			);
+			path = MRQuicklyPayViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CF4C27E1EA9B542003763E9 /* MRQuicklyPayViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF4C2AC1EA9B542003763E9 /* Build configuration list for PBXNativeTarget "MRQuicklyPayViewDemo" */;
+			buildPhases = (
+				5CF4C27B1EA9B542003763E9 /* Sources */,
+				5CF4C27C1EA9B542003763E9 /* Frameworks */,
+				5CF4C27D1EA9B542003763E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRQuicklyPayViewDemo;
+			productName = MRQuicklyPayViewDemo;
+			productReference = 5CF4C27F1EA9B542003763E9 /* MRQuicklyPayViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CF4C2971EA9B542003763E9 /* MRQuicklyPayViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF4C2AF1EA9B542003763E9 /* Build configuration list for PBXNativeTarget "MRQuicklyPayViewDemoTests" */;
+			buildPhases = (
+				5CF4C2941EA9B542003763E9 /* Sources */,
+				5CF4C2951EA9B542003763E9 /* Frameworks */,
+				5CF4C2961EA9B542003763E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF4C29A1EA9B542003763E9 /* PBXTargetDependency */,
+			);
+			name = MRQuicklyPayViewDemoTests;
+			productName = MRQuicklyPayViewDemoTests;
+			productReference = 5CF4C2981EA9B542003763E9 /* MRQuicklyPayViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CF4C2A21EA9B542003763E9 /* MRQuicklyPayViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CF4C2B21EA9B542003763E9 /* Build configuration list for PBXNativeTarget "MRQuicklyPayViewDemoUITests" */;
+			buildPhases = (
+				5CF4C29F1EA9B542003763E9 /* Sources */,
+				5CF4C2A01EA9B542003763E9 /* Frameworks */,
+				5CF4C2A11EA9B542003763E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CF4C2A51EA9B542003763E9 /* PBXTargetDependency */,
+			);
+			name = MRQuicklyPayViewDemoUITests;
+			productName = MRQuicklyPayViewDemoUITests;
+			productReference = 5CF4C2A31EA9B542003763E9 /* MRQuicklyPayViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CF4C2771EA9B542003763E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = OFweek;
+				TargetAttributes = {
+					5CF4C27E1EA9B542003763E9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = N733VEH5ML;
+						ProvisioningStyle = Automatic;
+					};
+					5CF4C2971EA9B542003763E9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CF4C27E1EA9B542003763E9;
+					};
+					5CF4C2A21EA9B542003763E9 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CF4C27E1EA9B542003763E9;
+					};
+				};
+			};
+			buildConfigurationList = 5CF4C27A1EA9B542003763E9 /* Build configuration list for PBXProject "MRQuicklyPayViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CF4C2761EA9B542003763E9;
+			productRefGroup = 5CF4C2801EA9B542003763E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CF4C27E1EA9B542003763E9 /* MRQuicklyPayViewDemo */,
+				5CF4C2971EA9B542003763E9 /* MRQuicklyPayViewDemoTests */,
+				5CF4C2A21EA9B542003763E9 /* MRQuicklyPayViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CF4C27D1EA9B542003763E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF4C2921EA9B542003763E9 /* LaunchScreen.storyboard in Resources */,
+				5CF4C28F1EA9B542003763E9 /* Assets.xcassets in Resources */,
+				5CF4C28D1EA9B542003763E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF4C2961EA9B542003763E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF4C2A11EA9B542003763E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CF4C27B1EA9B542003763E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB37D941EA9B8CB00B79256 /* MRKeyboardInputView.m in Sources */,
+				5CB37D911EA9B72A00B79256 /* PwdTextField.m in Sources */,
+				5CF4C28A1EA9B542003763E9 /* ViewController.m in Sources */,
+				5CF4C2871EA9B542003763E9 /* AppDelegate.m in Sources */,
+				5CF4C2841EA9B542003763E9 /* main.m in Sources */,
+				5CF4C2B71EA9B57D003763E9 /* MRQuicklyPayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF4C2941EA9B542003763E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF4C29D1EA9B542003763E9 /* MRQuicklyPayViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF4C29F1EA9B542003763E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF4C2A81EA9B542003763E9 /* MRQuicklyPayViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CF4C29A1EA9B542003763E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF4C27E1EA9B542003763E9 /* MRQuicklyPayViewDemo */;
+			targetProxy = 5CF4C2991EA9B542003763E9 /* PBXContainerItemProxy */;
+		};
+		5CF4C2A51EA9B542003763E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CF4C27E1EA9B542003763E9 /* MRQuicklyPayViewDemo */;
+			targetProxy = 5CF4C2A41EA9B542003763E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CF4C28B1EA9B542003763E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF4C28C1EA9B542003763E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CF4C2901EA9B542003763E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CF4C2911EA9B542003763E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CF4C2AA1EA9B542003763E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CF4C2AB1EA9B542003763E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CF4C2AD1EA9B542003763E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N733VEH5ML;
+				INFOPLIST_FILE = MRQuicklyPayViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofweek.MRQuicklyPayViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CF4C2AE1EA9B542003763E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N733VEH5ML;
+				INFOPLIST_FILE = MRQuicklyPayViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofweek.MRQuicklyPayViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CF4C2B01EA9B542003763E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MRQuicklyPayViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofweek.MRQuicklyPayViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRQuicklyPayViewDemo.app/MRQuicklyPayViewDemo";
+			};
+			name = Debug;
+		};
+		5CF4C2B11EA9B542003763E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MRQuicklyPayViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofweek.MRQuicklyPayViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRQuicklyPayViewDemo.app/MRQuicklyPayViewDemo";
+			};
+			name = Release;
+		};
+		5CF4C2B31EA9B542003763E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MRQuicklyPayViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofweek.MRQuicklyPayViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MRQuicklyPayViewDemo;
+			};
+			name = Debug;
+		};
+		5CF4C2B41EA9B542003763E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MRQuicklyPayViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ofweek.MRQuicklyPayViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MRQuicklyPayViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CF4C27A1EA9B542003763E9 /* Build configuration list for PBXProject "MRQuicklyPayViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF4C2AA1EA9B542003763E9 /* Debug */,
+				5CF4C2AB1EA9B542003763E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF4C2AC1EA9B542003763E9 /* Build configuration list for PBXNativeTarget "MRQuicklyPayViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF4C2AD1EA9B542003763E9 /* Debug */,
+				5CF4C2AE1EA9B542003763E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF4C2AF1EA9B542003763E9 /* Build configuration list for PBXNativeTarget "MRQuicklyPayViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF4C2B01EA9B542003763E9 /* Debug */,
+				5CF4C2B11EA9B542003763E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CF4C2B21EA9B542003763E9 /* Build configuration list for PBXNativeTarget "MRQuicklyPayViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF4C2B31EA9B542003763E9 /* Debug */,
+				5CF4C2B41EA9B542003763E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CF4C2771EA9B542003763E9 /* Project object */;
+}
